@@ -7,39 +7,35 @@
 
 ## 1. Summary
 
-* Blockchain (chu?i kh?i) l� m?t c? s? d? li?u ph�n c?p cho ph�p l?u tr? v� truy?n t?i c�c kh?i th�ng tin ???c b?o v? b?ng m� h�a, ??ng th?i li�n k?t ch?t ch? v?i nhau 
-o Phi t?p trung:�D? li?u kh�ng ???c l?u tr? t?i m?t m�y ch? trung t�m m� ???c ph�n ph?i tr�n nhi?u m�y t�nh (node) trong m?ng l??i.
-o Kh�ng th? thay ??i:�Khi m?t kh?i d? li?u ?� ???c ghi nh?n v� ??t ???c s? ??ng thu?n, n� s? kh�ng th? b? x�a hay s?a ??i.
-o Minh b?ch:�T?t c? ng??i tham gia trong m?ng l??i ??u c� kh? n?ng theo d�i l?ch s? giao d?ch m?t c�ch r� r�ng
-* Bitcoin l� m?t lo?i ti?n ?i?n t? ??u ti�n v� n?i ti?ng nh?t, ???c ph�t tri?n v�o n?m 2009 b?i m?t ng??i ho?c nh�m ng??i s? d?ng b�t danh Satoshi Nakamoto. Bitcoin ho?t ??ng d?a tr�n c�ng ngh? blockchain, cho ph�p giao d?ch di?n ra m� kh�ng c?n trung gian nh? ng�n h�ng
-* ?ng d?ng c?a Blockchain:T�i ch�nh,Cung ?ng,y t?, gi�o d?c, gaming
+**Blockchain (chuỗi khối) **là một cơ sở dữ liệu phân cấp cho phép lưu trữ và truyền tải các khối thông tin được bảo vệ bằng mã hóa, đồng thời liên kết chặt chẽ với nhau:   
++Phi tập trung: Dữ liệu không được lưu trữ tại một máy chủ trung tâm mà được phân phối trên nhiều máy tính (node) trong mạng lưới.   
++Không thể thay đổi: Khi một khối dữ liệu đã được ghi nhận và đưa vào sử dụng chung, nó sẽ không thể bị xóa hay sửa đổi.   
++Minh bạch: Tất cả người tham gia trong mạng lưới đều có khả năng theo dõi lịch sử giao dịch một cách rõ ràng.   
+-**Bitcoin** là một loại tiền điện tử đầu tiên và nổi tiếng nhất, được phát triển vào năm 2009 bởi một người hoặc nhóm người sử dụng bút danh Satoshi Nakamoto. Bitcoin hoạt động dựa trên công nghệ blockchain, cho phép giao dịch diễn ra mà không cần trung gian như ngân hàng.   
+-**Ứng dụng của Blockchain:** Tài chính, chuỗi cung ứng, y tế, giáo dục, gaming
 
 
 ## 2. Topic notes
-* Blockchain:
--N� kh� gi?ng linkedlist ? ?i?m m?i kh?i ??u c� m� hash ri�ng v� l?u tr?  m� hash c?a kh?i ngay tr??c ?�
-* Bitcoin:
--L� m?t ?ng d?ng c?a Blockchain
- 	+Th? h? 1(bitcoin)
-T?p trung v�o ti?n m� h�a v� vi?c l?u tr? giao d?ch tr�n m?t chu?i c�c kh?i
-       +Th? h? 2(Ethereum):
-T�ch h?p h?p ??ng th�ng minh (l� c�c ?o?n m� ???c l?p tr�nh s?n tr�n Blockchain. Khi c�c ?i?u ki?n ???c ?�p ?ng, h?p ??ng s? t? ??ng th?c thi c�c ?i?u kho?n m� kh�ng c?n b?t k� b�n trung gian n�o)
-       +Th? h? 3(Cardano,Solana,Palkadot):
-T�p trung gi?i quy?t c�c h?n ch? c?a th? h? tr??c, ??c bi?t v? kh? n?ng m? r?ng, kh? n?ng t??ng t�c gi?a c�c blockchian v� t�nh b?n v?ng c?a h? th�ng.
-       +Th? h? 4(Midnight,Ssecret Network,hedera,...):
-Ph? c?p c�ng ngh? Blockchain cho ng??i d�ng ??i ch�ng b?ng c�ch t?i ?u h�a t?c ?? x? l�, t?ng c??ng t�nh t??ng t�c v?i t�ch h?p tr� tu? nh�n t?o ho?c IoT.
-
+**Blockchain:**
+   Nó khá giống linked list: điểm mỗi khối đều có mã hash riêng và lưu trữ mã hash của khối ngay trước đó.   
+**Bitcoin:**
+-Là một ứng dụng của Blockchain.   
+-**Thế hệ 1 (Bitcoin):** Tập trung vào tiền mã hóa và việc lưu trữ giao dịch trên một chuỗi các khối.   
+-**Thế hệ 2 (Ethereum):** Tích hợp hợp đồng thông minh (là các đoạn mã được lập trình sẵn trên Blockchain. Khi các điều kiện được đáp ứng, hợp đồng sẽ tự động -thực thi các điều khoản mà không cần bất kỳ bên trung gian nào).   
+-**Thế hệ 3 (Cardano, Solana, Polkadot):** Tập trung giải quyết các hạn chế của thế hệ trước, đặc biệt về khả năng mở rộng, khả năng tương tác giữa các blockchain và tính bền vững của hệ thống.   
+-**Thế hệ 4 (Midnight, Secret Network, Hedera,...):** Phục vụ công nghệ Blockchain cho người dùng đại chúng bằng cách tối ưu tốc độ xử lý, tăng cường tính tương tác và tích hợp trí tuệ nhân tạo hoặc IoT.
 ## 3. Work completed
 
-Kh�ng c�
+Không có
 ## 4. Evidence
-?nh b�i quiz
+ảnh bài quiz
+<img width="434" height="435" alt="image" src="https://github.com/user-attachments/assets/2f2d2b93-81f6-431f-b0ae-10ca8db8c0b4" />
 
 
 ## 5. Blockers
 
-Kh�ng c�
+Không có
 ## 6. Takeaway
 
-Kh�ng c�
+Không có
 
