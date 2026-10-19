@@ -1,44 +1,45 @@
 # Session 01 - Blockchain Fundamentals
 
-- Student: Demo Student
-- GitHub: [@demo-student](https://github.com/demo-student)
-- Submitted: 2026-10-14
-- Commit: `<replace with the real commit URL>`
+- Student: Chu Th? H??ng
+- GitHub: https://github.com/huoniie.git
+- Submitted: 2026-10-19
+- Commit: https://github.com/huoniie/dev-lock-bootcamp.git
 
 ## 1. Summary
 
-Blockchain is a shared, append-only ledger maintained by a network instead of
-one central operator. Bitcoin introduced a practical way to transfer value
-without a trusted central intermediary.
+* Blockchain (chu?i kh?i) là m?t c? s? d? li?u phân c?p cho phép l?u tr? và truy?n t?i các kh?i thông tin ???c b?o v? b?ng mã hóa, ??ng th?i liên k?t ch?t ch? v?i nhau 
+o Phi t?p trung: D? li?u không ???c l?u tr? t?i m?t máy ch? trung tâm mà ???c phân ph?i trên nhi?u máy tính (node) trong m?ng l??i.
+o Không th? thay ??i: Khi m?t kh?i d? li?u ?ã ???c ghi nh?n và ??t ???c s? ??ng thu?n, nó s? không th? b? xóa hay s?a ??i.
+o Minh b?ch: T?t c? ng??i tham gia trong m?ng l??i ??u có kh? n?ng theo dõi l?ch s? giao d?ch m?t cách rõ ràng
+* Bitcoin là m?t lo?i ti?n ?i?n t? ??u tiên và n?i ti?ng nh?t, ???c phát tri?n vào n?m 2009 b?i m?t ng??i ho?c nhóm ng??i s? d?ng bút danh Satoshi Nakamoto. Bitcoin ho?t ??ng d?a trên công ngh? blockchain, cho phép giao d?ch di?n ra mà không c?n trung gian nh? ngân hàng
+* ?ng d?ng c?a Blockchain:Tài chính,Cung ?ng,y t?, giáo d?c, gaming
+
 
 ## 2. Topic notes
-
-- Centralized systems have one main authority; decentralized systems distribute
-  control across participants.
-- Ethereum added programmable smart contracts on top of a blockchain.
-- A useful example is cross-border settlement where multiple organizations need
-  a shared record.
+* Blockchain:
+-Nó khá gi?ng linkedlist ? ?i?m m?i kh?i ??u có mã hash riêng và l?u tr?  mã hash c?a kh?i ngay tr??c ?ó
+* Bitcoin:
+-Là m?t ?ng d?ng c?a Blockchain
+ 	+Th? h? 1(bitcoin)
+T?p trung vào ti?n mã hóa và vi?c l?u tr? giao d?ch trên m?t chu?i các kh?i
+       +Th? h? 2(Ethereum):
+Tích h?p h?p ??ng thông minh (là các ?o?n mã ???c l?p trình s?n trên Blockchain. Khi các ?i?u ki?n ???c ?áp ?ng, h?p ??ng s? t? ??ng th?c thi các ?i?u kho?n mà không c?n b?t kì bên trung gian nào)
+       +Th? h? 3(Cardano,Solana,Palkadot):
+Tâp trung gi?i quy?t các h?n ch? c?a th? h? tr??c, ??c bi?t v? kh? n?ng m? r?ng, kh? n?ng t??ng tác gi?a các blockchian và tính b?n v?ng c?a h? thông.
+       +Th? h? 4(Midnight,Ssecret Network,hedera,...):
+Ph? c?p công ngh? Blockchain cho ng??i dùng ??i chúng b?ng cách t?i ?u hóa t?c ?? x? lý, t?ng c??ng tính t??ng tác v?i tích h?p trí tu? nhân t?o ho?c IoT.
 
 ## 3. Work completed
 
-```text
-Read the Session 01 material.
-Compared a bank ledger with a public blockchain ledger.
-Wrote a short use-case analysis.
-```
-
+Không có
 ## 4. Evidence
+?nh bài quiz
 
-| Task | Evidence URL | What it proves |
-| --- | --- | --- |
-| Concept notes | `<replace with the commit URL>` | Notes were committed |
-| Use-case analysis | `<replace with the document or file URL>` | The use case is reviewable |
 
 ## 5. Blockers
 
-No blocker.
-
+Không có
 ## 6. Takeaway
 
-The next session explains how transactions move through the network and become
-part of a block.
+Không có
+
