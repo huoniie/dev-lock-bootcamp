@@ -9,9 +9,11 @@
 
 - **Blockchain (chuỗi khối)** là một cơ sở dữ liệu phân cấp cho phép lưu trữ và truyền tải các khối thông tin được bảo vệ bằng mã hóa, đồng thời liên kết chặt chẽ với nhau:   
 
-   +Phi tập trung: Dữ liệu không được lưu trữ tại một máy chủ trung tâm mà được phân phối trên nhiều máy tính (node) trong mạng lưới.   
-   +Không thể thay đổi: Khi một khối dữ liệu đã được ghi nhận và đưa vào sử dụng chung, nó sẽ không thể bị xóa hay sửa đổi.   
-   +Minh bạch: Tất cả người tham gia trong mạng lưới đều có khả năng theo dõi lịch sử giao dịch một cách rõ ràng.
+      +Phi tập trung: Dữ liệu không được lưu trữ tại một máy chủ trung tâm mà được phân phối trên nhiều máy tính (node) trong mạng lưới.
+    
+      +Không thể thay đổi: Khi một khối dữ liệu đã được ghi nhận và đưa vào sử dụng chung, nó sẽ không thể bị xóa hay sửa đổi.
+    
+      +Minh bạch: Tất cả người tham gia trong mạng lưới đều có khả năng theo dõi lịch sử giao dịch một cách rõ ràng.
    
 - **Bitcoin** là một loại tiền điện tử đầu tiên và nổi tiếng nhất, được phát triển vào năm 2009 bởi một người hoặc nhóm người sử dụng bút danh Satoshi Nakamoto. Bitcoin hoạt động dựa trên công nghệ blockchain, cho phép giao dịch diễn ra mà không cần trung gian như ngân hàng.   
 
@@ -50,19 +52,19 @@
   
       +Pháp lý chưa rõ ràng
   
-      +Khó tích
+      +Khó tích hợp
   
 **Bitcoin:**
 
 Là một ứng dụng của Blockchain. 
 
--**Thế hệ 1 (Bitcoin):** Tập trung vào tiền mã hóa và việc lưu trữ giao dịch trên một chuỗi các khối.  
-
--**Thế hệ 2 (Ethereum):** Tích hợp hợp đồng thông minh (là các đoạn mã được lập trình sẵn trên Blockchain. Khi các điều kiện được đáp ứng, hợp đồng sẽ tự động -thực thi các điều khoản mà không cần bất kỳ bên trung gian nào).   
-
--**Thế hệ 3 (Cardano, Solana, Polkadot):** Tập trung giải quyết các hạn chế của thế hệ trước, đặc biệt về khả năng mở rộng, khả năng tương tác giữa các blockchain và tính bền vững của hệ thống.  
-
--**Thế hệ 4 (Midnight, Secret Network, Hedera,...):** Phục vụ công nghệ Blockchain cho người dùng đại chúng bằng cách tối ưu tốc độ xử lý, tăng cường tính tương tác và tích hợp trí tuệ nhân tạo hoặc IoT.
+      -**Thế hệ 1 (Bitcoin):** Tập trung vào tiền mã hóa và việc lưu trữ giao dịch trên một chuỗi các khối.  
+      
+      -**Thế hệ 2 (Ethereum):** Tích hợp hợp đồng thông minh (là các đoạn mã được lập trình sẵn trên Blockchain. Khi các điều kiện được đáp ứng, hợp đồng sẽ tự động -thực thi các điều khoản mà không cần bất kỳ bên trung gian nào).   
+      
+      -**Thế hệ 3 (Cardano, Solana, Polkadot):** Tập trung giải quyết các hạn chế của thế hệ trước, đặc biệt về khả năng mở rộng, khả năng tương tác giữa các blockchain và tính bền vững của hệ thống.  
+      
+      -**Thế hệ 4 (Midnight, Secret Network, Hedera,...):** Phục vụ công nghệ Blockchain cho người dùng đại chúng bằng cách tối ưu tốc độ xử lý, tăng cường tính tương tác và tích hợp trí tuệ nhân tạo hoặc IoT.
 
 - **Một số khái niệm cần biết**
 -**Hash(hàm băm)** là một hàm chuyển đổi đầu vào của các chữ cái và số thành đầu ra được mã hóa có độ dài cố định
@@ -71,13 +73,13 @@ Là một ứng dụng của Blockchain.
 
 Các đặc điểm nổi bật của DeFi bao gồm
 
-   Phi tập trung: Không bị kiểm soát bởi bất kỳ tổ chức hay cá nhân nào.
-   
-   Minh bạch: Tất cả các giao dịch đều được ghi lại trên chuỗi khối (blockchain), một công nghệ lưu trữ dữ liệu phân tán.
-   
-   Mở cửa: Bất kỳ ai có kết nối internet đều có thể tham gia mà không cần thực hiện các thủ tục phức tạp.
-   
-   Hợp đồng thông minh
+      Phi tập trung: Không bị kiểm soát bởi bất kỳ tổ chức hay cá nhân nào.
+      
+      Minh bạch: Tất cả các giao dịch đều được ghi lại trên chuỗi khối (blockchain), một công nghệ lưu trữ dữ liệu phân tán.
+      
+      Mở cửa: Bất kỳ ai có kết nối internet đều có thể tham gia mà không cần thực hiện các thủ tục phức tạp.
+      
+      Hợp đồng thông minh
    
  -**CeFi**, viết tắt của **Tài chính Tập trung**, là một mô hình tài chính truyền thống nơi các dịch vụ tài chính được quản lý bởi một tổ chức trung gian.
 
