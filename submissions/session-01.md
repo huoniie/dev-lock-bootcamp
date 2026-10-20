@@ -82,7 +82,7 @@ Các đặc điểm nổi bật của DeFi bao gồm:
    
  -**CeFi**, viết tắt của **Tài chính Tập trung**, là một mô hình tài chính truyền thống nơi các dịch vụ tài chính được quản lý bởi một tổ chức trung gian.
 
-Các đặc điểm chính của CeFi bao gồm:
+Các đặc điểm chính của CeFi bao gồm
 
       Quản lý tập trung: Tất cả các giao dịch và dịch vụ tài chính đều được điều hành bởi một tổ chức duy nhất, như ngân hàng hoặc sàn giao dịch tiền điện tử 
       
