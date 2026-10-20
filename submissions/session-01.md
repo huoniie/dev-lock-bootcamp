@@ -69,12 +69,11 @@ Là một ứng dụng của Blockchain.
   
 -**DeFi**, viết tắt của**Tài chính Phi tập trung**, là một hệ thống tài chính cho phép thực hiện các dịch vụ tài chính mà không cần đến sự can thiệp của các bên trung gian như ngân hàng hay cơ quan quản lý.
 
-Các đặc điểm nổi bật của DeFi bao gồm:
+Các đặc điểm nổi bật của DeFi bao gồm
 
    Phi tập trung: Không bị kiểm soát bởi bất kỳ tổ chức hay cá nhân nào.
    
-   Minh bạch: Tất cả các giao dịch đều được ghi lại trên chuỗi khối (blockchain), một công  
-   nghệ lưu trữ dữ liệu phân tán.
+   Minh bạch: Tất cả các giao dịch đều được ghi lại trên chuỗi khối (blockchain), một công nghệ lưu trữ dữ liệu phân tán.
    
    Mở cửa: Bất kỳ ai có kết nối internet đều có thể tham gia mà không cần thực hiện các thủ tục phức tạp.
    
