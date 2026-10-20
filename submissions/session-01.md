@@ -22,21 +22,36 @@
 
 - **Blockchain:**
 
-   Nó khá giống linked list: mỗi khối đều có mã hash riêng và lưu trữ mã hash của khối ngay trước đó.   
+   Nó khá giống linked list: mỗi khối đều có mã hash riêng và lưu trữ mã hash của khối ngay trước đó.
+  
    Phân loại
-      +Public : mọi người đều có thể tham gia
-      +Private : Giới hạn trong tổ chức
-      +Consortium: Nhóm tổ chức cùng kiểm soát
-   Ưu điểm:
-      +Tính minh bạch 
+  
+      Public : mọi người đều có thể tham gia
+  
+      Private : Giới hạn trong tổ chức
+  
+      Consortium: Nhóm tổ chức cùng kiểm soát
+  
+   Ưu điểm
+  
+      Tính minh bạch
+  
       +Bảo mật cao
+  
       +Không cần trung gian
+  
       +Tính bất biến
-   Nhược điểm:
+  
+   Nhược điểm
+  
       +Chi phí năng lượng
+  
       +Khó mở rộng
+  
       +Pháp lý chưa rõ ràng
-      +Khó tích 
+  
+      +Khó tích
+  
 **Bitcoin:**
 
 Là một ứng dụng của Blockchain. 
