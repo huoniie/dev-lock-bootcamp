@@ -51,21 +51,26 @@ Là một ứng dụng của Blockchain.
 
 - **Một số khái niệm cần biết**
 -**Hash(hàm băm)** là một hàm chuyển đổi đầu vào của các chữ cái và số thành đầu ra được mã hóa có độ dài cố định
+  
 -**DeFi**, viết tắt của**Tài chính Phi tập trung**, là một hệ thống tài chính cho phép thực hiện các dịch vụ tài chính mà không cần đến sự can thiệp của các bên trung gian như ngân hàng hay cơ quan quản lý.
 
 Các đặc điểm nổi bật của DeFi bao gồm:
 
    Phi tập trung: Không bị kiểm soát bởi bất kỳ tổ chức hay cá nhân nào.
-   Minh bạch: Tất cả các giao dịch đều được ghi lại trên chuỗi khối (blockchain), một công                 nghệ lưu trữ dữ liệu phân tán.
-   Mở cửa: Bất kỳ ai có kết nối internet đều có thể tham gia mà không cần thực hiện các thủ             tục phức tạp.
+   
+   Minh bạch: Tất cả các giao dịch đều được ghi lại trên chuỗi khối (blockchain), một công  
+   nghệ lưu trữ dữ liệu phân tán.
+   
+   Mở cửa: Bất kỳ ai có kết nối internet đều có thể tham gia mà không cần thực hiện các thủ tục phức tạp.
+   
    Hợp đồng thông minh
-   -**CeFi**, viết tắt của **Tài chính Tập trung**, là một mô hình tài chính truyền thống nơi các dịch vụ tài chính được quản lý bởi một tổ chức trung gian.
+ -**CeFi**, viết tắt của **Tài chính Tập trung**, là một mô hình tài chính truyền thống nơi các dịch vụ tài chính được quản lý bởi một tổ chức trung gian.
 
 Các đặc điểm chính của CeFi bao gồm:
 
       Quản lý tập trung: Tất cả các giao dịch và dịch vụ tài chính đều được điều hành bởi một tổ chức duy nhất, như ngân hàng hoặc sàn giao dịch tiền điện tử 
       
-      Yêu cầu xác minh danh tính: Người dùng thường phải cung cấp thông tin cá nhân và tuân thủ các quy định pháp lý như KYC (Know Your Customer) và AML (Anti-Money Laundering) 
+      Yêu cầu xác minh danh tính: Người dùng thường phải cung cấp thông tin cá nhân và tuân thủ các quy định pháp lý như KYC (Know Your Customer) và AML (Anti-Money        Laundering) 
       
       Dịch vụ đa dạng: CeFi cung cấp nhiều dịch vụ tài chính như cho vay, gửi tiết kiệm, và giao dịch tiền điện tử 
       
