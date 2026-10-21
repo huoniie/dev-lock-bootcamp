@@ -36,7 +36,7 @@
   
    Ưu điểm
   
-      Tính minh bạch
+      +Tính minh bạch
   
       +Bảo mật cao
   
@@ -58,13 +58,13 @@
 
 Là một ứng dụng của Blockchain. 
 
-      -**Thế hệ 1 (Bitcoin):** Tập trung vào tiền mã hóa và việc lưu trữ giao dịch trên một chuỗi các khối.  
+      - Thế hệ 1 (Bitcoin): Tập trung vào tiền mã hóa và việc lưu trữ giao dịch trên một chuỗi các khối.  
       
-      -**Thế hệ 2 (Ethereum):** Tích hợp hợp đồng thông minh (là các đoạn mã được lập trình sẵn trên Blockchain. Khi các điều kiện được đáp ứng, hợp đồng sẽ tự động -thực thi các điều khoản mà không cần bất kỳ bên trung gian nào).   
+      -Thế hệ 2 (Ethereum): Tích hợp hợp đồng thông minh (là các đoạn mã được lập trình sẵn trên Blockchain. Khi các điều kiện được đáp ứng, hợp đồng sẽ tự động -thực thi các điều khoản mà không cần bất kỳ bên trung gian nào).   
       
-      -**Thế hệ 3 (Cardano, Solana, Polkadot):** Tập trung giải quyết các hạn chế của thế hệ trước, đặc biệt về khả năng mở rộng, khả năng tương tác giữa các blockchain và tính bền vững của hệ thống.  
+      -Thế hệ 3 (Cardano, Solana, Polkadot): Tập trung giải quyết các hạn chế của thế hệ trước, đặc biệt về khả năng mở rộng, khả năng tương tác giữa các blockchain và tính bền vững của hệ thống.  
       
-      -**Thế hệ 4 (Midnight, Secret Network, Hedera,...):** Phục vụ công nghệ Blockchain cho người dùng đại chúng bằng cách tối ưu tốc độ xử lý, tăng cường tính tương tác và tích hợp trí tuệ nhân tạo hoặc IoT.
+      -Thế hệ 4 (Midnight, Secret Network, Hedera,...):Phục vụ công nghệ Blockchain cho người dùng đại chúng bằng cách tối ưu tốc độ xử lý, tăng cường tính tương tác và tích hợp trí tuệ nhân tạo hoặc IoT.
 
 - **Một số khái niệm cần biết**
 -**Hash(hàm băm)** là một hàm chuyển đổi đầu vào của các chữ cái và số thành đầu ra được mã hóa có độ dài cố định
