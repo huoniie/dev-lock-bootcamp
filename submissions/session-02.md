@@ -9,7 +9,7 @@
 
 
 - **Block & Blockchain Structure**
-- 
+  
 Các block được liên kết với nhau thông qua mã hash của block trước đó
 
 - **Transaction**
