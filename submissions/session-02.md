@@ -9,9 +9,11 @@
 
 
 - **Block & Blockchain Structure**
+- 
 Các block được liên kết với nhau thông qua mã hash của block trước đó
 
 - **Transaction**
+  
 -Là đơn vị công việc nhỏ nhất làm thay đổi trạng thái của mạng lưới
 
     +Chuyển đổi giá trị
@@ -21,6 +23,7 @@ Các block được liên kết với nhau thông qua mã hash của block trư�
     +Xác thực chữ ký
 
 - **Ledger / State**
+  
     -Ledger:Sổ cái lưu trữ mọi giao dịch(lịch sử biến động)
     
     -State: Trạng thái hiện tại( snapshot dữ liệu tại thời điểm hiện tại )
@@ -34,6 +37,7 @@ Mỗi **Node** trong mạng lưới
     +Đóng vai trò là client (nhận dữ liệu), 
 
     +Là server (cung cấp dữ liệu và xác thực)
+    
 **Full node**
 
     + Tải • xác minh • lưu lịch sử
@@ -47,10 +51,12 @@ Mỗi **Node** trong mạng lưới
     + Nhanh, nhẹ — phù hợp ví di động
 
 - **Transaction Lifecycle**
+- 
 <img width="857" height="353" alt="image" src="https://github.com/user-attachments/assets/83888fda-518b-48e4-975d-892bcc156c6f" />
 
 
 - **Blockchain Explorer**
+- 
 Trình khám phá blockchain:
 
 Công cụ tìm kiếm trực tuyến cho phép bạn tra cứu, theo dõi và phân tích toàn bộ dữ liệu lịch sử cũng như các hoạt động đang diễn ra trên một mạng lưới blockchain
