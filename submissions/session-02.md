@@ -60,6 +60,7 @@ Mỗi **Node** trong mạng lưới
 Công cụ tìm kiếm trực tuyến cho phép bạn tra cứu, theo dõi và phân tích toàn bộ dữ liệu lịch sử cũng như các hoạt động đang diễn ra trên một mạng lưới blockchain
 
 ## 2. Topic notes
+
 - **Block & Blockchain Structure**
   
   - 1 block
@@ -69,18 +70,29 @@ Công cụ tìm kiếm trực tuyến cho phép bạn tra cứu, theo dõi và p
     + 1 mã hash của khối trước nó
 
     + thông tin
+    
+    + hình vẽ
+      
       [khối N] - [Khối N+1]
+      
       [Khối N+1] chứa mã hash chính nó và mã hash của khối N
 
    Note:
+  
       1 khối block còn có phần head và body nữa ( liên quan tới light node)
-      Đặc biệt khối block đầu sẽ không chứa mã hash của khối trước nó
+  
+      Đặc biệt khối block đầu sẽ không chứa mã hash của khối trước nó ( vì có đâu mà chứa)
+  
+  trước------[Khối]----sau
      
 - **Transaction**
 
 - **Ledger / State**
+- 
       tưởng tượng về tài khoản ngân hàng của bản thân cuối tháng
+  
       +Lúc nhìn số dư còn 5.000VND ( thì đây là state)
+  
       +Kiểm tra lại mình đã tiêu vào đâu mà chưa cuối tháng đã âm tiền vào lịch sử giao dịch kiểm tra ( đây là ledger)
       
 - **Nodes & P2P Network**
