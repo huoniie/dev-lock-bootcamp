@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-abc
+
 =======
 # Session 01 - Blockchain Fundamentals
 
