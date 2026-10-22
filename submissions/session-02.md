@@ -9,16 +9,16 @@
 
 
 - **Block & Blockchain Structure**
-Các block được liên kết với nhau thông qua mã  của block trước đó
+Các block được liên kết với nhau thông qua mã hash của block trước đó
 
 - **Transaction**
 -Là đơn vị công việc nhỏ nhất làm thay đổi trạng thái của mạng lưới
 
-  +Chuyển đổi giá trị
-  
-  +Thực thi logic 
-  
-  +Xác thực chữ 
+    +Chuyển đổi giá trị
+    
+    +Thực thi logic 
+    
+    +Xác thực chữ 
 
 - **Ledger / State**
 -Ledger:Sổ cái lưu trữ mọi giao dịch(lịch sử biến động)
@@ -31,9 +31,9 @@ Các block được liên kết với nhau thông qua mã  của block trước 
 
 Mỗi **Node** trong mạng lưới 
 
-       +Đóng vai trò là client (nhận dữ liệu), 
+    +Đóng vai trò là client (nhận dữ liệu), 
 
-       +Là server (cung cấp dữ liệu và xác thực)
+    +Là server (cung cấp dữ liệu và xác thực)
 **Full node**
 
     + Tải • xác minh • lưu lịch sử
