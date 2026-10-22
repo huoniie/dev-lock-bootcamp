@@ -1,5 +1,4 @@
 
-=======
 # Session 01 - Blockchain Fundamentals
 
 - Student: Chu Thị Hương
