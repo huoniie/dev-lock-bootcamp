@@ -59,7 +59,7 @@
 
 Là một ứng dụng của Blockchain. 
 
-      - Thế hệ 1 (Bitcoin): Tập trung vào tiền mã hóa và việc lưu trữ giao dịch trên một chuỗi các khối.  
+      -Thế hệ 1 (Bitcoin): Tập trung vào tiền mã hóa và việc lưu trữ giao dịch trên một chuỗi các khối.  
       
       -Thế hệ 2 (Ethereum): Tích hợp hợp đồng thông minh (là các đoạn mã được lập trình sẵn trên Blockchain. Khi các điều kiện được đáp ứng, hợp đồng sẽ tự động -thực thi các điều khoản mà không cần bất kỳ bên trung gian nào).   
       
@@ -99,17 +99,20 @@ Các đặc điểm chính của CeFi bao gồm
 ## 3. Work completed
 
 Không có
+
 ## 4. Evidence
+
 ảnh bài quiz
+
 <img width="434" height="435" alt="image" src="https://github.com/user-attachments/assets/2f2d2b93-81f6-431f-b0ae-10ca8db8c0b4" />
 
 
 ## 5. Blockers
 
 Không có
+
 ## 6. Takeaway
 
 Không có
 
 
->>>>>>> ceaa45d3325040654322f3174fa8238b1b23d80b
