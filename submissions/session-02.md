@@ -88,7 +88,7 @@ Công cụ tìm kiếm trực tuyến cho phép bạn tra cứu, theo dõi và p
 - **Transaction**
 
 - **Ledger / State**
-- 
+
       tưởng tượng về tài khoản ngân hàng của bản thân cuối tháng
   
       +Lúc nhìn số dư còn 5.000VND ( thì đây là state)
@@ -96,7 +96,7 @@ Công cụ tìm kiếm trực tuyến cho phép bạn tra cứu, theo dõi và p
       +Kiểm tra lại mình đã tiêu vào đâu mà chưa cuối tháng đã âm tiền vào lịch sử giao dịch kiểm tra ( đây là ledger)
       
 - **Nodes & P2P Network**
-- 
+  
 
 - **Transaction Lifecycle**
 
