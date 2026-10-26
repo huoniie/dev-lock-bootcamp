@@ -131,7 +131,9 @@ Không có
 Không có
 ## 6. Takeaway
 
-chỗ <img width="349" height="279" alt="image" src="https://github.com/user-attachments/assets/6d91258e-e47a-49b6-824e-0c7ff1d59b51" /> 
+chỗ này
+<img width="349" height="279" alt="image" src="https://github.com/user-attachments/assets/6d91258e-e47a-49b6-824e-0c7ff1d59b51" /> 
+
 em đang chưa phân biệt được cái node này là trong một khối block hay nó là một tập hợp khối block
 
 
