@@ -87,6 +87,14 @@ Công cụ tìm kiếm trực tuyến cho phép bạn tra cứu, theo dõi và p
      
 - **Transaction**
 
+Block chứa thông tin giao dịch nhưng thông tin giao dịch là gì???
+Thông tin giao dich
++ chuyển tiền
++ thực thi hành động trên hệ thống
++ gọi một chức năng nào đó của hợp đồng thông minh
++ hành động của bạn trên blockchain
+
+
 - **Ledger / State**
 
       tưởng tượng về tài khoản ngân hàng của bản thân cuối tháng
@@ -96,9 +104,13 @@ Công cụ tìm kiếm trực tuyến cho phép bạn tra cứu, theo dõi và p
       +Kiểm tra lại mình đã tiêu vào đâu mà chưa cuối tháng đã âm tiền vào lịch sử giao dịch kiểm tra ( đây là ledger)
       
 - **Nodes & P2P Network**
-  
+  P2P : kiểu là mô hình bình đẳng
+  hiểu đơn giản trong mạng lưới có hàng ngàn node và node nào cũng có quyền vừa làm client vừa làm server. Nó giúp cho việc xử lý dữ liệu nhanh hơn và gọn hơn.
+  còn mô hình cũ trước đây chúng ta chỉ có duy nhất 1 server khi đó server phải phải thực hiện rất nhiều yêu cầu từ phía client đến một mức nào đó có thể chậm và thậm chí quá tải
+   
 
 - **Transaction Lifecycle**
+  
 
 - **Blockchain Explorer**
 
