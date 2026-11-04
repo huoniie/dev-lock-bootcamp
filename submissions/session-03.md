@@ -172,11 +172,7 @@ Kiểm soát khóa là kiểm soát tài sản. Sáu thói quen dưới đây qu
 
 ## 2. Topic notes
 
- dữ liệu trên blockchain 
-
-## 3. Work completed
-
-### Bài thực hành
+ ### Bài thực hành
 - **Ý 1**
 
 <img width="710" height="513" alt="image" src="https://github.com/user-attachments/assets/1772e9eb-39d8-4473-a534-0e14cf74b4fe" />
@@ -237,6 +233,10 @@ Ba thành phần này nối thành một chuỗi một chiều: khóa bí mật 
     + bạn dùng ứng dụng phi tập trung (DApp).
     + Đổi lại, bạn tự chịu hoàn toàn trách nhiệm bảo mật. Mất cụm từ khôi phục cùng với thiết bị là mất tài sản vĩnh viễn.
   
+
+
+## 3. Work completed
+
 
 
 ## 4. Evidence
