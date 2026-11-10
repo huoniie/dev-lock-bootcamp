@@ -13,8 +13,8 @@
 * **Bản chất:** Là lời giải cho bài toán các vị tướng Byzantine (đạt thỏa thuận khi một số thành viên không đáng tin, bị hỏng hoặc cố tình gian lận).
 * Mỗi cơ chế đồng thuận trả lời 2 câu hỏi: **Ai được đề xuất block tiếp theo?** và **Làm sao mạng lưới chấp nhận block đó?**
 
-<!-- Ảnh Slide 4 / Hình 1 từ PDF: Nhiều node cùng thống nhất một sổ cái chung -->
-<img width="800" alt="Hình 1: Nhiều node cùng thống nhất một sổ cái chung, kể cả khi có node lỗi" src="" />
+<img width="463" height="445" alt="image" src="https://github.com/user-attachments/assets/5fe512b0-46d4-41e7-8cd2-ae9fa8a43966" />
+
 
 ```text
 [Node 1] \
@@ -31,8 +31,8 @@
   * Cạnh tranh bằng năng lực tính toán.
   * Thợ đào (miner) lặp lại quy trình: thay đổi *nonce* $\rightarrow$ băm khối $\rightarrow$ so sánh với ngưỡng mục tiêu (*target*). Ai tìm ra hash thỏa mãn trước sẽ được thêm block và nhận thưởng.
 
-<!-- Ảnh Slide 5 / Hình 2 từ PDF: Vòng lặp đào block PoW -->
-<img width="800" alt="Hình 2: Vòng lặp đào block trong Proof of Work" src="" />
+<img width="548" height="475" alt="image" src="https://github.com/user-attachments/assets/a9c5d580-0577-4735-abf9-53f0502d07ac" />
+
 
 ```text
 +-----------------------------------------------------------+
@@ -50,8 +50,7 @@
   * Người xác thực (validator) khóa coin vào mạng lưới làm tài sản bảo đảm.
   * Validator được chọn để đề xuất block, các validator khác tiến hành kiểm tra xác thực. Nếu gian lận sẽ bị phạt cắt coin ký quỹ (*slashing*).
 
-<!-- Ảnh Slide 6 / Hình 3 từ PDF: Mô hình ký quỹ PoS và Slashing -->
-<img width="800" alt="Hình 3: Proof of Stake - Người xác thực ký quỹ coin để tham gia đồng thuận" src="" />
+<img width="461" height="420" alt="image" src="https://github.com/user-attachments/assets/441851d2-77cd-4eec-9394-a52ffa10369b" />
 
 * **Bảng so sánh PoW và PoS:**
 
@@ -70,8 +69,8 @@
 * **Khái niệm:** Là thời điểm một giao dịch thực sự chắc chắn và không thể bị đảo ngược.
 * Giao dịch khi vừa vào block chưa chắc chắn tuyệt đối; số xác nhận cần chờ phụ thuộc vào cơ chế đồng thuận.
 
-<!-- Ảnh Slide 8 / Hình 4 từ PDF: Tiến trình Finality qua các block xác nhận -->
-<img width="800" alt="Hình 4: Mỗi block mới làm xác suất đảo ngược giao dịch giảm dần" src="" />
+<img width="1089" height="397" alt="image" src="https://github.com/user-attachments/assets/d8c46d1a-1fd1-4469-a204-af6b8fe6aec9" />
+
 
 ```text
 [TX Block] ---> [+1 Block] ---> [+2 Block] ---> [+3 Block] ---> ... ---> [+6 Block]
@@ -87,23 +86,21 @@
 ##### 1.4. Bộ ba bất khả thi & Kiến trúc phân tầng (Layer 1 / Layer 2)
 * **Bộ ba bất khả thi (Blockchain Trilemma):** Một blockchain rất khó đạt cùng lúc cả 3 yếu tố: **Phi tập trung**, **Bảo mật** và **Khả năng mở rộng**. Muốn tăng yếu tố này thường phải đánh đổi yếu tố kia, đó là lý do Layer 2 ra đời.
 
-<!-- Ảnh Slide 9 / Hình 5 từ PDF: Tam giác Blockchain Trilemma -->
-<img width="600" alt="Hình 5: Bộ ba bất khả thi của blockchain" src="" />
+<img width="771" height="498" alt="image" src="https://github.com/user-attachments/assets/e47674b6-1c36-482b-b403-6939f805b706" />
+
 
 * **Kiến trúc Layer 1 & Layer 2:**
   * **Layer 1:** Đóng vai trò gốc về đồng thuận, lưu trữ dữ liệu và bảo mật (Bitcoin, Ethereum).
   * **Layer 2:** Tầng mở rộng giúp xử lý nhanh, gom nhiều giao dịch off-chain rồi nén kết quả ghi về Layer 1 (Lightning Network, Arbitrum, Optimism).
   * *Ẩn dụ giao thông:* Layer 1 là **đường cao tốc chính**; Layer 2 là **hệ thống đường gom** xử lý bớt lượng xe cộ rồi nhập làn về cao tốc.
 
-<!-- Ảnh Slide 10 / Hình 6 từ PDF: Kiến trúc phân tầng Layer 1 & Layer 2 -->
-<img width="800" alt="Hình 6: Kiến trúc phân tầng Layer 1 và Layer 2" src="" />
+<img width="476" height="374" alt="image" src="https://github.com/user-attachments/assets/0a717cba-2742-4837-a75c-c977897cfadc" />
 
 ---
 
 ##### 1.5. Mô hình trạng thái: Account-based vs. UTXO
 
-<!-- Ảnh Slide 11 / Hình 7 từ PDF: So sánh mô hình Account và UTXO -->
-<img width="800" alt="Hình 7: Hai cách biểu diễn trạng thái tài sản (Account-based vs UTXO)" src="" />
+<img width="1053" height="404" alt="image" src="https://github.com/user-attachments/assets/ed76c076-4e89-4b98-8550-9bee4b406f29" />
 
 * **Account-based (Mô hình tài khoản - ví dụ Ethereum):**
   * Tương tự số dư tài khoản ngân hàng, hệ thống cộng/trừ trực tiếp số dư tài khoản.
@@ -116,8 +113,8 @@
 
 ##### 1.6. Mô hình triển khai & Ca ứng dụng thực tế
 
-<!-- Ảnh Slide 12 / Hình 8 từ PDF: Ba mô hình triển khai Public, Private và Permissioned -->
-<img width="800" alt="Hình 8: Ba mô hình triển khai blockchain (Public, Private, Permissioned)" src="" />
+<img width="1055" height="441" alt="image" src="https://github.com/user-attachments/assets/1113b238-4a1a-4836-ba2e-ccecf34b3d1e" />
+
 
 * **So sánh 3 mô hình triển khai:**
   * **Public (Công khai):** Mọi người đều có quyền đọc/ghi mà không cần cấp phép, tin cậy dựa vào kinh tế mạng (Bitcoin, Ethereum).
@@ -129,8 +126,7 @@
   * Định kỳ neo giá trị băm **Merkle Root** của lô bằng cấp lên **Public chain**.
   * *Bảo vệ quyền riêng tư:* Tuyệt đối không đưa dữ liệu cá nhân sinh viên lên chuỗi; Public chain chỉ lưu bằng chứng mã hóa Merkle Root để bất kỳ nhà tuyển dụng nào cũng có thể kiểm chứng tính toàn vẹn của văn bằng.
 
-<!-- Ảnh Slide 13 / Hình 9 từ PDF: Kiến trúc hệ thống cấp bằng liên minh neo Merkle Root -->
-<img width="800" alt="Hình 9: Kiến trúc hệ thống cấp bằng đại học trên blockchain" src="" />
+
 
 ```text
 [Trường A] \
@@ -163,23 +159,16 @@
 
 ---
 
-##### 2.2. Bằng chứng làm bài thực hành (Evidence placeholders)
-* **Bài 1 (Blockchain Demo):**  
-  <img width="800" alt="Ảnh chụp màn hình thử đào block và làm vỡ chuỗi trên Blockchain Demo" src="" />
-* **Bài 2 (Mempool.space):**  
-  <img width="800" alt="Ảnh chụp màn hình tra cứu TX Bitcoin, xác nhận và UTXO trên Mempool" src="" />
-* **Bài 3 (L2BEAT):**  
-  <img width="800" alt="Ảnh chụp màn hình tra cứu dự án Layer 2 và TVL trên L2BEAT" src="" />
+
 
 ---
 
 #### 3. Work completed
 * Nghiên cứu toàn diện các cơ chế đồng thuận (PoW, PoS), tính chung cuộc, bộ ba bất khả thi, Layer 1 & 2, UTXO, Account-based và 3 mô hình mạng lưới.
 * Trả lời đầy đủ 5 câu hỏi ôn tập theo giáo trình.
-* Hoàn thành các bài tập thực hành trên Blockchain Demo, Mempool.space và L2BEAT.
 
 #### 4. Evidence
-*(Xem các ảnh chụp màn hình bài thực hành đã đính kèm ở mục 2.2)*.
+* không có
 
 #### 5. Blockers
 * Cần làm rõ thêm cách tính ngưỡng chịu lỗi $3f + 1$ trong các thuật toán PBFT/BFT khi áp dụng thực tế với số lượng node nhỏ.
