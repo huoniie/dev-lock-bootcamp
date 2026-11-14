@@ -60,7 +60,7 @@ Sự biến động của tổng cung token (Total Supply) do các hàm trong sm
 * **Gas:** Thước đo lượng công việc tính toán, lưu trữ mà mạng lưới phải thực hiện cho mỗi giao dịch.
 * **Công thức tính phí:**
   $$\text{Transaction Fee} = \text{Gas đã dùng (Gas Used)} \times \text{Đơn giá Gas (Gas Price)}$$
-  *(Ví dụ: $21.000 \text{ gas} \times 20 \text{ gwei} = 0,00042 \text{ ETH}$)*
+  
 * **Xử lý giao dịch lỗi:**
   * *Bấm hủy trên ví trước khi ký:* Không có giao dịch gửi lên mạng $\rightarrow$ Không mất phí.
   * *Giao dịch đã vào block nhưng bị Revert (thất bại):* Mọi thay đổi trạng thái bị hoàn tác, nhưng **vẫn bị trừ phí Gas** vì validator đã tiêu tốn tài nguyên máy tính để chạy mã lệnh đến điểm dừng lỗi.
@@ -73,7 +73,7 @@ Sự biến động của tổng cung token (Total Supply) do các hàm trong sm
 
 #### 2. Topic notes
 
-##### 2.1. Giải đáp câu hỏi ôn tập & Bài tập cuối buổi
+
 
 * **Bài tập ghép đúng khái niệm:**
   1. *ETH trên Ethereum* $\rightarrow$ **Native Coin**
@@ -96,25 +96,6 @@ Sự biến động của tổng cung token (Total Supply) do các hàm trong sm
 
 ---
 
-##### 2.2. Hướng dẫn Bài thực hành (Đọc Token trên Etherscan)
-* **Mục tiêu:** Nhận diện đúng token chính chủ, đối chiếu địa chỉ hợp đồng và phân biệt dữ liệu hợp đồng với thông tin thị trường.
-* **Các bước thực hiện:**
-  1. *Đối chiếu địa chỉ chính thức:* Vào trang công bố của Circle, tìm địa chỉ USDC trên Ethereum Mainnet: `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`.
-  2. *Tra cứu trên Etherscan:* Dán địa chỉ vào Etherscan, kiểm tra mục **Token Contract**, xác nhận số **Decimals = 6** (1 USDC được biểu diễn bằng $10^6$ đơn vị nhỏ nhất).
-  3. *Phân tích trường dữ liệu:*
-     * `Token Contract`: Địa chỉ triển khai hợp đồng trên mạng.
-     * `Supply`: Lượng cung trên mạng hiện tại (không mặc nhiên là tổng cung toàn thị trường).
-     * `Holders`: Số lượng địa chỉ ví đang nắm giữ token.
-     * `Transfers`: Lịch sử các lần chuyển dịch token.
-     * `Price / Market Cap`: Dữ liệu giá thị trường bên ngoài do Etherscan thu thập, không phải thông tin lưu trong hợp đồng.
-  4. *Đọc một giao dịch chuyển USDC:* Mở một Transaction Hash bất kỳ trong tab Transfers:
-     * `Status`: Success (màu xanh).
-     * `Value`: Thường hiển thị `0 ETH` vì giao dịch không gửi kèm ETH gốc.
-     * `ERC-20 Tokens Transferred`: Hiển thị rõ số lượng USDC được chuyển giữa ví gửi và nhận.
-     * `Transaction Fee`: Số lượng ETH thực tế bị trừ để trả phí gas.
-
----
-
 #### 3. Work completed
 * Nắm vững nguyên lý hoạt động của Smart contract và cách cập nhật trạng thái trên chuỗi.
 * Phân biệt rõ ràng Coin gốc, Token ERC-20, Stablecoin và NFT ERC-721.
@@ -123,10 +104,9 @@ Sự biến động của tổng cung token (Total Supply) do các hàm trong sm
 * Thực hành đọc và phân tích dữ liệu token USDC trên Etherscan.
 
 #### 4. Evidence
-*(Đính kèm ảnh chụp màn hình khi làm bài thực hành: Trang chi tiết Token USDC trên Etherscan hiển thị Contract Address, Decimals, và ảnh giao dịch chuyển USDC chi tiết)*.
+
 
 #### 5. Blockers
-* Cần thực hành thêm cách tương tác gọi hàm `read` (miễn phí) và `write` (tốn gas) trên Remix IDE hoặc Etherscan Contract tab.
 
 #### 6. Takeaway
 * Smart contract là bộ quy tắc bất biến quản lý tài sản, nhưng nó chỉ biết dữ liệu on-chain và địa chỉ ví, không tự biết sự kiện ngoài đời thực.
