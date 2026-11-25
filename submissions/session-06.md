@@ -103,57 +103,7 @@ Một giao dịch từ khi khởi tạo sẽ trải qua các giai đoạn:
 
 ---
 
-##### 2.2. Hướng dẫn chi tiết bài thực hành: Triển khai và tương tác với ClassroomSeat.sol
 
-* **Bước 1: Soạn thảo và Biên dịch trên Remix IDE:**
-  * Truy cập `remix.ethereum.org`, tạo tệp `ClassroomSeat.sol` trong thư mục `contracts`.
-  * Dán mã nguồn hợp đồng:
-    ```solidity
-    // SPDX-License-Identifier: MIT
-    pragma solidity 0.8.24;
-
-    contract ClassroomSeat {
-        mapping(address => bool) public registered;
-        uint256 public totalRegistered;
-
-        event Registered(address indexed attendee, uint256 total);
-
-        function register() external {
-            require(!registered[msg.sender], "Already registered");
-            registered[msg.sender] = true;
-            totalRegistered += 1;
-            emit Registered(msg.sender, totalRegistered);
-        }
-    }
-    ```
-  * Mở tab **Solidity Compiler**: Chọn compiler phiên bản `0.8.24`, cấu hình EVM version là `shanghai`, tắt tính năng Optimization, sau đó bấm **Compile ClassroomSeat.sol**.
-* **Bước 2: Chạy thử trên môi trường mô phỏng (Remix VM):**
-  * Chuyển sang tab **Deploy & Run Transactions**.
-  * Chọn mục *Environment* là `Remix VM (Osaka)`.
-  * Chọn tài khoản Account 1, để `Value = 0`, chọn contract `ClassroomSeat` và bấm **Deploy**.
-  * Trong mục *Deployed Contracts*:
-    * Nhấn nút Call màu xanh `totalRegistered`: Kết quả trả về `0`.
-    * Nhấn nút Transact màu cam `register`: Giao dịch thực thi thành công ngay lập tức.
-    * Nhấn lại `totalRegistered`: Bộ đếm tăng lên `1`.
-    * Nhập địa chỉ Account 1 vào ô `registered`: Kết quả trả về `true`.
-    * Bấm lại `register` bằng Account 1: Giao dịch báo lỗi hoàn nguyên `Already registered` do điều kiện `require` chặn đăng ký lần hai.
-* **Bước 3: Triển khai lên Ethereum Sepolia Testnet:**
-  * Chuẩn bị ví cá nhân (như MetaMask), chuyển sang mạng **Ethereum Sepolia** (Chain ID: `11155111`), xin test ETH từ các vòi (faucet) chính thức. Tuyệt đối không dùng tiền thật hoặc để lộ seed phrase.
-  * Trên Remix, chọn *Environment* là `Browser Extension` (hoặc `Injected Provider`). Ví sẽ yêu cầu xác nhận kết nối.
-  * Bấm **Deploy**: Ví bật lên yêu cầu xác nhận giao dịch triển khai kèm phí gas ước tính. Bấm xác nhận và chờ giao dịch hoàn tất.
-* **Bước 4: Đối chiếu kết quả trên Etherscan Sepolia:**
-  * Mở `sepolia.etherscan.io`, dán mã giao dịch (*Transaction Hash*) hoặc địa chỉ hợp đồng vừa tạo.
-  * Kiểm tra các thông số:
-    * `Status`: Hiển thị `Success` (màu xanh).
-    * `From`: Địa chỉ ví học tập của bạn.
-    * `To`: Địa chỉ hợp đồng `ClassroomSeat` vừa triển khai.
-    * `Transaction Fee`: Số lượng Sepolia ETH thực tế bị trừ làm phí gas.
-* **Xử lý sự cố thường gặp:**
-  * *Không đủ test ETH:* Cần xin thêm từ faucet hoặc dùng ví demo có sẵn ETH testnet.
-  * *Sai mạng:* Ngắt giao dịch, kiểm tra lại mạng Sepolia trên ví với Chain ID `11155111`.
-  * *Giao dịch Pending lâu:* Kiểm tra mã hash trên Etherscan, không bấm gửi liên tục nhiều lần làm tắc nghẽn nonce.
-
----
 
 #### 3. Work completed
 * Nắm vững kiến trúc 4 lớp cấu thành một dApp (Frontend, Wallet, Smart Contract, Blockchain/RPC).
@@ -164,10 +114,10 @@ Một giao dịch từ khi khởi tạo sẽ trải qua các giai đoạn:
 * Thực hành biên dịch, triển khai và kiểm thử hợp đồng `ClassroomSeat.sol` trên cả Remix VM và Sepolia Testnet.
 
 #### 4. Evidence
-*(Đính kèm ảnh chụp màn hình khi làm bài thực hành: Giao diện biên dịch và gọi hàm trên Remix VM; Cửa sổ xác nhận giao dịch trên ví MetaMask mạng Sepolia; Trang chi tiết giao dịch Success trên Sepolia Etherscan)*.
+
 
 #### 5. Blockers
-* Mạng faucet Sepolia công khai đôi khi yêu cầu điều kiện khắt khe (Gitcoin Passport hoặc số dư mainnet) để nhận test ETH. Có thể khắc phục bằng cách thử nghiệm trước trên Remix VM.
+
 
 #### 6. Takeaway
 * dApp mang lại tính minh bạch và quyền tự chủ cho người dùng, nhưng ranh giới bảo mật nằm ở thao tác ký của ví: luôn kiểm tra kỹ loại hành động (Connect, Sign hay Approve) trước khi xác nhận.
